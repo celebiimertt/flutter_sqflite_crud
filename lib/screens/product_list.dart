@@ -56,8 +56,9 @@ class _ProductList extends State {
               leading: CircleAvatar(backgroundColor: Colors.black12,child: Text("p"),),
               title: Text(this.products[position].name),
               subtitle: Text(this.products[position].description),
-              onTap: (){gotoDetail(this.products[position]);
-              print(this.products[position]);}
+              onTap: (){
+                gotoDetail(this.products[position]);
+              }
             )
           );
         }
