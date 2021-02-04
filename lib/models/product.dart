@@ -18,9 +18,6 @@ class Product{
     if(id!=null){
       map["id"]=id;
     }
-    print(map["id"]);
-    print(map["name"]);
-    print(map);
     return map;
   }
   Product.fromObject(dynamic o){
