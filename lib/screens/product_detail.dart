@@ -90,8 +90,6 @@ class _ProductDetailState extends State {
     switch(options){
       case Options.delete:
         await dbHelper.delete(product.id);
-        print(options);
-        print(product.id);
         Navigator.pop(context,true);
         break;
       case Options.update:
